@@ -1,0 +1,15 @@
+export { HomeHero } from './HomeHero.js';
+export { HomeChallenges } from './HomeChallenges.js';
+export { HomeAvenues } from './HomeAvenues.js';
+export { CustomerWords } from './CustomerWords.js';
+export { HomeLatestInsights } from './HomeLatestInsights.js';
+export { HomeModular } from './HomeModular.js';
+export { HomeLogisticsSolution } from './HomeLogisticsSolution.js';
+export { HomeAdvantage } from './HomeAdvantage.js';
+export { AboutView } from './AboutView.js';
+export { Header } from './Header.js';
+export { User } from './User.js';
+export { Footer } from './Footer.js';
+export { AboutPlatform } from './AboutPlatform.js';
+export { PlatformHero } from './PlatformHero.js';
+export { PlatformForAll } from './PlatformForAll.js';
