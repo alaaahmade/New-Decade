@@ -25,30 +25,13 @@ export const createDefaultHero = async () => {
     const defaultHero = new HomeHero({
       id: 0,
       lang: {
-        ar: {
-          titleOne: 'Growth,',
-          titleTow: 'Delivered.',
-          description: `Enable excellence in all-mile logistics with our real-world-ready
-        customer experience and dispatch management platform. Grow your fulfillment and automate key
-        processes for unmatched efficiency, reduce costs, and foster customer loyalty with our
-        modular and scalable Delivery Management Solution.`,
-          featured: 'Gartner',
-          buttonOne: {
-            text: 'Explore The platform',
-            link: 'www.google.com',
-          },
-          buttonTow: {
-            text: 'Watch Demos',
-            link: 'www.google.com',
-          },
-        },
         en: {
           titleOne: 'Growth,',
           titleTow: 'Delivered.',
           description: `Enable excellence in all-mile logistics with our real-world-ready
-        customer experience and dispatch management platform. Grow your fulfillment and automate key
-        processes for unmatched efficiency, reduce costs, and foster customer loyalty with our
-        modular and scalable Delivery Management Solution.`,
+          customer experience and dispatch management platform. Grow your fulfillment and automate key
+          processes for unmatched efficiency, reduce costs, and foster customer loyalty with our
+          modular and scalable Delivery Management Solution.`,
           featured: 'Gartner',
           buttonOne: {
             text: 'Explore The platform',
@@ -56,29 +39,46 @@ export const createDefaultHero = async () => {
           },
           buttonTow: {
             text: 'Watch Demos',
+            link: 'www.google.com',
+          },
+        },
+        ar: {
+          titleOne: 'النمو،',
+          titleTow: 'مُحقق.',
+          description: `حقق التميز في جميع مراحل الخدمات اللوجستية من خلال منصتنا الجاهزة للاستخدام الواقعي
+          التي تقدم تجربة عميل مميزة وإدارة فعالة للتوصيل. قم بتنمية عمليات التنفيذ لديك وأتمتة المهام الأساسية
+          لتحقيق كفاءة لا مثيل لها، خفض التكاليف، وتعزيز ولاء العملاء من خلال حل إدارة التوصيل القابل للتوسعة والوحدات.`,
+          featured: 'غارتنر',
+          buttonOne: {
+            text: 'استكشف المنصة',
+            link: 'www.google.com',
+          },
+          buttonTow: {
+            text: 'شاهد العروض التوضيحية',
             link: 'www.google.com',
           },
         },
         cr: {
-          titleOne: 'Growth,',
-          titleTow: 'Delivered.',
-          description: `Enable excellence in all-mile logistics with our real-world-ready
-        customer experience and dispatch management platform. Grow your fulfillment and automate key
-        processes for unmatched efficiency, reduce costs, and foster customer loyalty with our
-        modular and scalable Delivery Management Solution.`,
+          titleOne: 'گەشە،',
+          titleTow: 'گەیەندرا.',
+          description: `بەکاربهێنانی پەیامێکی ڕاستەقینە بۆ خزمەتگوزارییەکانی لۆجیستیکی هەموو دووروبەر، 
+          ئاستی پێشکەوتن زیاد بکە لە ڕێگەی پلاتفۆڕمی بەکارهێنانی موشتەری و بەڕێوەبردنی گواستنەوە. 
+          پڕکردنەوەکانی خۆت بەرز بکە، پرۆسە گرنگەکان خۆکاریکردنەوە بکە بۆ کاریگەرایەتییەکی نایاب، 
+          خەرجییەکان کەم بکە و بە هاوپێچی موشتەرییەوە بەستەر دروست بکە بە پەیجەکەی بەشداربوو و گەشەپێدەر.`,
           featured: 'Gartner',
           buttonOne: {
-            text: 'Explore The platform',
+            text: 'گەڕانەوەی پلاتفۆڕم',
             link: 'www.google.com',
           },
           buttonTow: {
-            text: 'Watch Demos',
+            text: 'بینینی دەیمۆکان',
             link: 'www.google.com',
           },
         },
       },
-      image: 'http://localhost:8080/uploads/hero/hero.svg',
+      image: 'http://localhost:8080/uploads/hero/1745236676190-873148780.webp',
     });
+
     defaultHero.save();
     console.log('\x1b[33m$$-\x1b[0m', `Hero is created successfully.`);
   } else {

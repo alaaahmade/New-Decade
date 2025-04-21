@@ -29,13 +29,10 @@ export const createDefaultPlatformTransform = async () => {
       img: 'http://localhost:8080/uploads/platformTransforms/Transform.png',
       lang: {
         ar: {
-          title: 'Transform Your Last Mile in Just 7 Minutes!',
-          desc: `You're 7 short minutes away from leveling-up your last mile.
-          this assessment is designed to help you identify your
-           enterprise' current strengths and uncover new development
-            opportunities in the last mile.`,
+          title: 'حوّل الميل الأخير لديك في 7 دقائق فقط!',
+          desc: 'أنت على بعد 7 دقائق قصيرة من الارتقاء بمستوى الميل الأخير لديك. تم تصميم هذا التقييم لمساعدتك في تحديد نقاط القوة الحالية لمؤسستك والكشف عن فرص تطوير جديدة في الميل الأخير.',
           button: {
-            text: 'Take the Assessment',
+            text: 'ابدأ التقييم',
             link: 'www.google.com',
           },
         },
@@ -51,13 +48,12 @@ export const createDefaultPlatformTransform = async () => {
           },
         },
         cr: {
-          title: 'Transform Your Last Mile in Just 7 Minutes!',
-          desc: `You're 7 short minutes away from leveling-up your last mile.
-          this assessment is designed to help you identify your
-           enterprise' current strengths and uncover new development
-            opportunities in the last mile.`,
+          title: 'گۆڕینی کۆتای پەیەندەکانت تەنها لە ٧ خولەکە!',
+          desc: `تۆ تەنها ٧ خولەکە بەردەستە بۆ پەرەسەندانی کۆتای پەیەندەکانت.
+          ئەم تاقیگەیە دروست کراوە بۆ یارمەتیدانی تۆ بۆ دیاری کردنی 
+          هەرمەکانت بە شێوەیەکی نوێ و دۆزینەوەی پەیوەندیدانی نوێ بەرەوە بە کۆتای پەیەندەکان.`,
           button: {
-            text: 'Take the Assessment',
+            text: 'تاقیکردنەوەی تاقیگەرەکان',
             link: 'www.google.com',
           },
         },

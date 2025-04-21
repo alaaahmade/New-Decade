@@ -30,57 +30,57 @@ export const createDefaultCustomerWords = async () => {
       rateTow: 'http://localhost:8080/uploads/words/logo-capterra-G2.svg',
       lang: {
         ar: {
-          title: 'A word From Our',
-          span: 'Customer',
-          disc: 'Leading enterprises across 30+ countries on enabling real-world growth',
+          title: 'كلمة من',
+          span: 'عملائنا',
+          disc: 'شركات رائدة في أكثر من 30 دولة تمكّن النمو في العالم الحقيقي',
           buttonOne: {
-            text: 'Customer Stories',
+            text: 'قصص العملاء',
             link: 'www.google.com',
           },
           buttonTow: {
-            text: 'See Video',
+            text: 'شاهد الفيديو',
             link: 'www.google.com',
           },
           words: [
             {
               id: 0,
               image: 'http://localhost:8080/uploads/words/logo-bluedart.png',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `تحقيق التميز في الخدمات اللوجستية في جميع المراحل باستخدام منصتنا
+              لإدارة تجربة العملاء والتوصيل الجاهزة للعالم الحقيقي. نمِّ عملية التنفيذ لديك
+              وقم بأتمتة العمليات الأساسية لتحقيق كفاءة لا مثيل لها، وخفض التكاليف، وتعزيز ولاء العملاء
+              باستخدام حل إدارة التوصيل القابل للتطوير والتخصيص.`,
               name: 'Juster Correia',
-              nickname: 'General Manager-Operations',
+              nickname: 'المدير العام - العمليات',
             },
             {
               id: 1,
               image: 'http://localhost:8080/uploads/words/logo-nestle.webp',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `تحقيق التميز في الخدمات اللوجستية في جميع المراحل باستخدام منصتنا
+              لإدارة تجربة العملاء والتوصيل الجاهزة للعالم الحقيقي. نمِّ عملية التنفيذ لديك
+              وقم بأتمتة العمليات الأساسية لتحقيق كفاءة لا مثيل لها، وخفض التكاليف، وتعزيز ولاء العملاء
+              باستخدام حل إدارة التوصيل القابل للتطوير والتخصيص.`,
               name: 'Thitiphun Chress',
-              nickname: 'Data Analyses',
+              nickname: 'محلل بيانات',
             },
             {
               id: 2,
               image: 'http://localhost:8080/uploads/words/logo-bluedart.png',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `تحقيق التميز في الخدمات اللوجستية في جميع المراحل باستخدام منصتنا
+              لإدارة تجربة العملاء والتوصيل الجاهزة للعالم الحقيقي. نمِّ عملية التنفيذ لديك
+              وقم بأتمتة العمليات الأساسية لتحقيق كفاءة لا مثيل لها، وخفض التكاليف، وتعزيز ولاء العملاء
+              باستخدام حل إدارة التوصيل القابل للتطوير والتخصيص.`,
               name: 'Juster Correia',
-              nickname: 'General Manager-Operations',
+              nickname: 'المدير العام - العمليات',
             },
             {
               id: 3,
               image: 'http://localhost:8080/uploads/words/logo-nestle.webp',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `تحقيق التميز في الخدمات اللوجستية في جميع المراحل باستخدام منصتنا
+              لإدارة تجربة العملاء والتوصيل الجاهزة للعالم الحقيقي. نمِّ عملية التنفيذ لديك
+              وقم بأتمتة العمليات الأساسية لتحقيق كفاءة لا مثيل لها، وخفض التكاليف، وتعزيز ولاء العملاء
+              باستخدام حل إدارة التوصيل القابل للتطوير والتخصيص.`,
               name: 'Thitiphun Chress',
-              nickname: 'Data Analyses',
+              nickname: 'محلل بيانات',
             },
           ],
         },
@@ -101,9 +101,9 @@ export const createDefaultCustomerWords = async () => {
               id: 0,
               image: 'http://localhost:8080/uploads/words/logo-bluedart.png',
               paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              customer experience and dispatch management platform. Grow your fulfillment and automate key
+              processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
+              modular and scalable Delivery Management Solution.`,
               name: 'Juster Correia',
               nickname: 'General Manager-Operations',
             },
@@ -111,9 +111,9 @@ export const createDefaultCustomerWords = async () => {
               id: 1,
               image: 'http://localhost:8080/uploads/words/logo-nestle.webp',
               paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              customer experience and dispatch management platform. Grow your fulfillment and automate key
+              processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
+              modular and scalable Delivery Management Solution.`,
               name: 'Thitiphun Chress',
               nickname: 'Data Analyses',
             },
@@ -121,9 +121,9 @@ export const createDefaultCustomerWords = async () => {
               id: 2,
               image: 'http://localhost:8080/uploads/words/logo-bluedart.png',
               paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              customer experience and dispatch management platform. Grow your fulfillment and automate key
+              processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
+              modular and scalable Delivery Management Solution.`,
               name: 'Juster Correia',
               nickname: 'General Manager-Operations',
             },
@@ -131,71 +131,72 @@ export const createDefaultCustomerWords = async () => {
               id: 3,
               image: 'http://localhost:8080/uploads/words/logo-nestle.webp',
               paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              customer experience and dispatch management platform. Grow your fulfillment and automate key
+              processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
+              modular and scalable Delivery Management Solution.`,
               name: 'Thitiphun Chress',
               nickname: 'Data Analyses',
             },
           ],
         },
         cr: {
-          title: 'A word From Our',
-          span: 'Customer',
-          disc: 'Leading enterprises across 30+ countries on enabling real-world growth',
+          title: 'وشەیەک لە',
+          span: 'کڕیارەکانمان',
+          disc: 'کۆمپانیای سەرکەوتوو لەسەر 30+ وڵاتدا بۆ گەشەپێدانی ڕاستەقینە',
           buttonOne: {
-            text: 'Customer Stories',
+            text: 'چیرۆکەکانی کڕیار',
             link: 'www.google.com',
           },
           buttonTow: {
-            text: 'See Video',
+            text: 'بینینی ڤیدیۆ',
             link: 'www.google.com',
           },
           words: [
             {
               id: 0,
               image: 'http://localhost:8080/uploads/words/logo-bluedart.png',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `سەرکەوتن لە لۆجیستیکی هەموو قۆناغەکان بە بەکارهێنانی پلاتفۆڕمی
+              بەڕێوەبردنی گەیاندن و ئەزموونی کڕیار بە ئامادەیی بۆ جیهانی ڕاستەقینە.
+              پڕکردنەوەی داواکاریەکان بەرز بکە، پرۆسە گرنگەکان بەشێوەی ئۆتۆماتیکی بەرەوپێبە،
+              خەرجیەکان کەمبکە، و بەرگری بە کڕیارەکان بکە بە چارەسەری بەهێز و ڕێکخراو بۆ گەیاندن.`,
               name: 'Juster Correia',
-              nickname: 'General Manager-Operations',
+              nickname: 'بەرێوەبەرێ گشتی - کارەکان',
             },
             {
               id: 1,
               image: 'http://localhost:8080/uploads/words/logo-nestle.webp',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `سەرکەوتن لە لۆجیستیکی هەموو قۆناغەکان بە بەکارهێنانی پلاتفۆڕمی
+              بەڕێوەبردنی گەیاندن و ئەزموونی کڕیار بە ئامادەیی بۆ جیهانی ڕاستەقینە.
+              پڕکردنەوەی داواکاریەکان بەرز بکە، پرۆسە گرنگەکان بەشێوەی ئۆتۆماتیکی بەرەوپێبە،
+              خەرجیەکان کەمبکە، و بەرگری بە کڕیارەکان بکە بە چارەسەری بەهێز و ڕێکخراو بۆ گەیاندن.`,
               name: 'Thitiphun Chress',
-              nickname: 'Data Analyses',
+              nickname: 'توێژەرەی داتا',
             },
             {
               id: 2,
               image: 'http://localhost:8080/uploads/words/logo-bluedart.png',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `سەرکەوتن لە لۆجیستیکی هەموو قۆناغەکان بە بەکارهێنانی پلاتفۆڕمی
+              بەڕێوەبردنی گەیاندن و ئەزموونی کڕیار بە ئامادەیی بۆ جیهانی ڕاستەقینە.
+              پڕکردنەوەی داواکاریەکان بەرز بکە، پرۆسە گرنگەکان بەشێوەی ئۆتۆماتیکی بەرەوپێبە،
+              خەرجیەکان کەمبکە، و بەرگری بە کڕیارەکان بکە بە چارەسەری بەهێز و ڕێکخراو بۆ گەیاندن.`,
               name: 'Juster Correia',
-              nickname: 'General Manager-Operations',
+              nickname: 'بەرێوەبەرێ گشتی - کارەکان',
             },
             {
               id: 3,
               image: 'http://localhost:8080/uploads/words/logo-nestle.webp',
-              paragraph: `Enable excellence in all-mile logistics with our real-world-ready
-            customer experience and dispatch management platform. Grow your fulfillment and automate key
-            processes for unmatched efficiency, reduce costs, and foster customer loyalty with our 
-            modular and scalable Delivery Management Solution.`,
+              paragraph: `سەرکەوتن لە لۆجیستیکی هەموو قۆناغەکان بە بەکارهێنانی پلاتفۆڕمی
+              بەڕێوەبردنی گەیاندن و ئەزموونی کڕیار بە ئامادەیی بۆ جیهانی ڕاستەقینە.
+              پڕکردنەوەی داواکاریەکان بەرز بکە، پرۆسە گرنگەکان بەشێوەی ئۆتۆماتیکی بەرەوپێبە،
+              خەرجیەکان کەمبکە، و بەرگری بە کڕیارەکان بکە بە چارەسەری بەهێز و ڕێکخراو بۆ گەیاندن.`,
               name: 'Thitiphun Chress',
-              nickname: 'Data Analyses',
+              nickname: 'توێژەرەی داتا',
             },
           ],
         },
       },
     });
+
     defaultCustomerWords.save();
     console.log(
       '\x1b[33m$$-\x1b[0m',

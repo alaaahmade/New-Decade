@@ -94,7 +94,7 @@ export default function Footer({footerData}) {
       setIndustries(footerData?.lang?.ar?.industries)
       setResources(footerData?.lang?.ar?.resources)
       setCompany(footerData?.lang?.ar?.company)
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setData({...footerData, ...footerData?.lang?.cr})
       setPlatForm(footerData?.lang?.cr?.platForm)
       setIndustries(footerData?.lang?.cr?.industries)

@@ -24,56 +24,36 @@ export const createDefaultPlatformEdge = async () => {
       id: 0,
       lang: {
         ar: {
-          title: 'The Locus Edge',
+          title: 'ميزة لوكاس',
           list: [
             {
               id: 0,
-              name: 'Modular',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'وحدات',
+              desc: 'تتكون منصتنا من وحدات مصممة بعناية تحقق التميز في عمليات الخدمات اللوجستية الشاملة. كما يتيح التطوير المعياري الابتكار المستمر والتحسينات الخوارزمية ليكون العملاء على أهبة الاستعداد لمواجهة الحقائق الجديدة في السوق.',
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 1,
-              name: 'Integrated',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'متكامل',
+              desc: 'تتكون منصتنا من وحدات مصممة بعناية تحقق التميز في عمليات الخدمات اللوجستية الشاملة. كما يتيح التطوير المعياري الابتكار المستمر والتحسينات الخوارزمية ليكون العملاء على أهبة الاستعداد لمواجهة الحقائق الجديدة في السوق.',
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 2,
-              name: 'API-enabled',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'مُمكّن بواسطة واجهة برمجة التطبيقات',
+              desc: 'تتكون منصتنا من وحدات مصممة بعناية تحقق التميز في عمليات الخدمات اللوجستية الشاملة. كما يتيح التطوير المعياري الابتكار المستمر والتحسينات الخوارزمية ليكون العملاء على أهبة الاستعداد لمواجهة الحقائق الجديدة في السوق.',
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 3,
-              name: 'Secure',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'آمن',
+              desc: 'تتكون منصتنا من وحدات مصممة بعناية تحقق التميز في عمليات الخدمات اللوجستية الشاملة. كما يتيح التطوير المعياري الابتكار المستمر والتحسينات الخوارزمية ليكون العملاء على أهبة الاستعداد لمواجهة الحقائق الجديدة في السوق.',
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 4,
-              name: 'Support',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'الدعم',
+              desc: 'تتكون منصتنا من وحدات مصممة بعناية تحقق التميز في عمليات الخدمات اللوجستية الشاملة. كما يتيح التطوير المعياري الابتكار المستمر والتحسينات الخوارزمية ليكون العملاء على أهبة الاستعداد لمواجهة الحقائق الجديدة في السوق.',
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
           ],
@@ -134,56 +114,41 @@ export const createDefaultPlatformEdge = async () => {
           ],
         },
         cr: {
-          title: 'The Locus Edge',
+          title: 'پەیوەندیدانی لوکۆس',
           list: [
             {
               id: 0,
-              name: 'Modular',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'مەودولە',
+              desc: `پلاتفۆرمەکانەمان پەیوەندیدانی بە شێوەیەکی هەستیاری دروست کراوە 
+              کە فەرمی تایبەتمەندەکان فەرمی ئەوڵەتی دروست دەکاتەوە. فەرمی تایبەتمەندەکان فەرمی کاریگەری لە شێوەی پەیوەندیدانی بەرزەکانەمان وە تایبەتمەندی ڕوونی تایبەتی بەرزەکانەمانە.`,
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 1,
-              name: 'Integrated',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'هەریمەند',
+              desc: `پلاتفۆرمەکانەمان پەیوەندیدانی بە شێوەیەکی هەستیاری دروست کراوە 
+              کە فەرمی تایبەتمەندەکان فەرمی ئەوڵەتی دروست دەکاتەوە. فەرمی تایبەتمەندەکان فەرمی کاریگەری لە شێوەی پەیوەندیدانی بەرزەکانەمان وە تایبەتمەندی ڕوونی تایبەتی بەرزەکانەمانە.`,
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 2,
-              name: 'API-enabled',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'API-کەری کارگێڕی',
+              desc: `پلاتفۆرمەکانەمان پەیوەندیدانی بە شێوەیەکی هەستیاری دروست کراوە 
+              کە فەرمی تایبەتمەندەکان فەرمی ئەوڵەتی دروست دەکاتەوە. فەرمی تایبەتمەندەکان فەرمی کاریگەری لە شێوەی پەیوەندیدانی بەرزەکانەمان وە تایبەتمەندی ڕوونی تایبەتی بەرزەکانەمانە.`,
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 3,
-              name: 'Secure',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'پەیوەندیدانی پەیوەندیدانە',
+              desc: `پلاتفۆرمەکانەمان پەیوەندیدانی بە شێوەیەکی هەستیاری دروست کراوە 
+              کە فەرمی تایبەتمەندەکان فەرمی ئەوڵەتی دروست دەکاتەوە. فەرمی تایبەتمەندەکان فەرمی کاریگەری لە شێوەی پەیوەندیدانی بەرزەکانەمان وە تایبەتمەندی ڕوونی تایبەتی بەرزەکانەمانە.`,
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
             {
               id: 4,
-              name: 'Support',
-              desc: `Our platform consists of carefully designed modules 
-              that delivery excellence across all-mile logistics
-               operations. Modular development also allows for constant innovation and algorithmic improvements so
-                that customers are ever-ready to meet new market
-                 realities.`,
+              name: 'پەیوەندیدانی یارمەتیدانی',
+              desc: `پلاتفۆرمەکانەمان پەیوەندیدانی بە شێوەیەکی هەستیاری دروست کراوە 
+              کە فەرمی تایبەتمەندەکان فەرمی ئەوڵەتی دروست دەکاتەوە. فەرمی تایبەتمەندەکان فەرمی کاریگەری لە شێوەی پەیوەندیدانی بەرزەکانەمان وە تایبەتمەندی ڕوونی تایبەتی بەرزەکانەمانە.`,
               img: 'http://localhost:8080/uploads/platformEdge/image-leverage-targeted-insights.webp',
             },
           ],

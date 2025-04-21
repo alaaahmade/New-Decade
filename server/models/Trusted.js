@@ -35,24 +35,24 @@ export const createDefaultTrusted = async () => {
       id: 0,
       lang: {
         ar: {
-          titleOne: 'Trusted By Leading',
-          span: 'Brands',
-          titleTow: 'Globally',
+          titleOne: 'موثوق به من قبل رواد',
+          span: 'العلامات التجارية',
+          titleTow: 'عالميًا',
           listOne: {
             id: 0,
-            name: 'Retail',
+            name: 'قطاع البيع بالتجزئة',
           },
           listTow: {
             id: 1,
-            name: 'FMCG/CPG',
+            name: 'السلع الاستهلاكية سريعة التداول',
           },
           listThree: {
             id: 2,
-            name: '3PL/CEP',
+            name: 'طرف ثالث لوجستي/خدمات البريد السريع والطرود',
           },
           listFour: {
             id: 3,
-            name: 'Ecommerce',
+            name: 'التجارة الإلكترونية',
           },
         },
         en: {
@@ -77,12 +77,12 @@ export const createDefaultTrusted = async () => {
           },
         },
         cr: {
-          titleOne: 'Trusted By Leading',
-          span: 'Brands',
-          titleTow: 'Globally',
+          titleOne: 'پەیوەندیدە بەرەوپێشەکان',
+          span: 'مارکەکان',
+          titleTow: 'لە جیهانەوە',
           listOne: {
             id: 0,
-            name: 'Retail',
+            name: 'کۆمەرس',
           },
           listTow: {
             id: 1,
@@ -94,7 +94,7 @@ export const createDefaultTrusted = async () => {
           },
           listFour: {
             id: 3,
-            name: 'Ecommerce',
+            name: 'ئێ-کۆمەرەس',
           },
         },
       },

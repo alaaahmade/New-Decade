@@ -32,7 +32,7 @@ export default function HomeLogisticsSolution({data}) {
       setSolutionsData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setSolutionsData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setSolutionsData({...data, ...data?.lang?.cr})
     }
 

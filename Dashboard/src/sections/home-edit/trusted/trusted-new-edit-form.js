@@ -395,7 +395,7 @@ export default function TrustedNewEditForm({ currentTrusted }) {
             <RHFTextField name="titleTow_en" label="English Second section of title" />
 
             <Stack spacing={3} sx={{ p: 3 }}>
-            <Typography variant="h6" sx={{ mb: 0.5 }}>Arabic Trusted List</Typography>
+            <Typography variant="h6" sx={{ mb: 0.5 }}>English Trusted List</Typography>
             <RHFTextField name="listOneN_en" label="English First group name" />
 
             <RHFTextField name="listTowN_en" label="English Second group name" />
@@ -414,7 +414,7 @@ export default function TrustedNewEditForm({ currentTrusted }) {
             <RHFTextField name="titleTow_cr" label="kurd Second section of title" />
 
             <Stack spacing={3} sx={{ p: 3 }}>
-            <Typography variant="h6" sx={{ mb: 0.5 }}>Arabic Trusted List</Typography>
+            <Typography variant="h6" sx={{ mb: 0.5 }}>kurd Trusted List</Typography>
             <RHFTextField name="listOneN_cr" label="Kurd First group name" />
 
             <RHFTextField name="listTowN_cr" label="Kurd Second group name" />

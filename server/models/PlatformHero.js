@@ -26,20 +26,15 @@ export const createDefaultPlatformHero = async () => {
       id: 0,
       lang: {
         ar: {
-          title: 'One Unified Platform for All-mile Logistics Excellence',
-
-          description: `Enhance logistics efficiency acorss firtst, mid, and last mile deliveries 
-          with our order-to-deliviry Dispatch Management Platform. Ensure optimal fleet
-           and dispatch management , improve resource utilization, and delight
-            customers with predictable, convenient, and flexble fulfillment by leveraging 
-            automation.`,
-
+          title: 'منصة موحدة واحدة للتميز في الخدمات اللوجستية الشاملة',
+          description:
+            'عزز كفاءة الخدمات اللوجستية عبر عمليات التسليم في الميل الأول والأوسط والأخير باستخدام منصة إدارة الإرسال الشاملة لدينا. اضمن الإدارة المثلى للأسطول والإرسال، وحسّن استخدام الموارد، وأسعد العملاء بتنفيذ يمكن التنبؤ به ومريح ومرن من خلال الاستفادة من الأتمتة.',
           buttonOne: {
-            text: 'Watch Demos',
+            text: 'شاهد العروض التوضيحية',
             link: 'www.google.com',
           },
           buttonTow: {
-            text: "lit's Talk",
+            text: 'لنتحدث',
             link: 'www.google.com',
           },
         },
@@ -58,16 +53,17 @@ export const createDefaultPlatformHero = async () => {
           },
         },
         cr: {
-          title: 'One Unified Platform for All-mile Logistics Excellence',
+          title:
+            'یەک پلاتفۆرم یەکەگرتوو بۆ فەرمی تایبەتمەندەکانە کە هەموو فەرمەکان بەرەوە دەبەخشێن',
 
-          description: `Enhance logistics efficiency acorss firtst, mid, and last mile deliveries with our order-to-deliviry Dispatch Management Platform. Ensure optimal fleet  and dispatch management , improve resource utilization, and delight customers with predictable, convenient, and flexble fulfillment by leveraging automation.  `,
+          description: `تایبەتمەندی فەرمی تایبەتمەندەکان بە شێوەیەکی تایبەتمەند بەرەوەی فەرمی تایبەتمەندەکان بە شێوەیەکی تایبەتمەندەی پەیوەندیدانی تایبەتمەندەکان بەرەوە بەرەوە بەرەوە بەرەوە پەیوەندیدانی تایبەتمەندەکانە`,
 
           buttonOne: {
-            text: 'Watch Demos',
+            text: 'ببینە دیمۆیەکان',
             link: 'www.google.com',
           },
           buttonTow: {
-            text: "lit's Talk",
+            text: 'بە مەراسێ دابەشە',
             link: 'www.google.com',
           },
         },

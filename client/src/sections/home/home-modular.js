@@ -36,7 +36,7 @@ export default function HomeModular({data}) {
       setDesignerData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setDesignerData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setDesignerData({...data, ...data?.lang?.cr})
     }
   }, [data])

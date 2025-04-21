@@ -25,7 +25,7 @@ export const HomeAdvantage = ({data}) => {
       setAdvantageData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setAdvantageData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setAdvantageData({...data, ...data?.lang?.cr})
     }
 

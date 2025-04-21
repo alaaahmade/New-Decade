@@ -31,57 +31,56 @@ export const createDefaultHeader = async () => {
   if (!defaults) {
     const defaultHeader = new Header({
       id: 0,
-      logo: 'http://localhost:8080/uploads/header/logo.png',
+      logo: 'http://localhost:8080/uploads/header/1745235773978-532815789.png',http://localhost:8080/uploads/header/logo.png'
       smallLogo: 'http://localhost:8080/uploads/header/smallLogo.png',
       whatsNumber: '9724149120',
       lang: {
         ar: {
           list: [
             {
-              title: 'Platform',
-              subheader: 'Platform',
+              title: 'المنصة',
+              subheader: 'المنصة',
               path: '/platform',
             },
-
             {
-              title: 'Industries',
+              title: 'القطاعات',
               path: '/industries',
               children: [
                 {
                   items: [
                     {
-                      title: 'Fulfillment Automation',
+                      title: 'أتمتة التنفيذ',
                       path: '/industries/Fulfillment',
                       children: [
                         {
                           items: [
-                            { title: 'Fulfillment 33Automation2', path: '#' },
-                            { title: 'Dispatch 33Planning2', path: '#' },
-                            { title: 'Delivery 33Orchestration2', path: '#' },
-                            { title: 'Track and 33Trace2', path: '#' },
-                            { title: 'Analytics 33and Insights2', path: '#' },
+                            { title: 'أتمتة التنفيذ 2', path: '#' },
+                            { title: 'تخطيط الإرسال 2', path: '#' },
+                            { title: 'تنسيق التوصيل 2', path: '#' },
+                            { title: 'التتبع والتعقب 2', path: '#' },
+                            { title: 'التحليلات والرؤى 2', path: '#' },
                           ],
                         },
                       ],
                     },
-                    { title: 'Dispatch Planning', path: '#' },
-                    { title: 'Delivery Orchestration', path: '#' },
-                    { title: 'Track and Trace', path: '#' },
-                    { title: 'Analytics and Insights', path: '#' },
+                    { title: 'تخطيط الإرسال', path: '#' },
+                    { title: 'تنسيق التوصيل', path: '#' },
+                    { title: 'التتبع والتعقب', path: '#' },
+                    { title: 'التحليلات والرؤى', path: '#' },
                   ],
                 },
               ],
             },
-            { title: 'Resources', path: '/Resources' },
-            { title: 'Company', path: '/Company' },
-            { title: 'Customers', path: '/Customers' },
-            { title: 'Guides', path: '/Guides' },
+            { title: 'الموارد', path: '/Resources' },
+            { title: 'الشركة', path: '/Company' },
+            { title: 'العملاء', path: '/Customers' },
+            { title: 'الأدلة', path: '/Guides' },
           ],
           headLine: {
-            text: 'Transform yor last mile with personalized, actionable insights in just seven minutes!',
+            text: 'حوّل الميل الأخير لديك من خلال رؤى مخصصة وقابلة للتنفيذ في سبع دقائق فقط!',
             link: {
-              text: 'Take our Assessment',
-              link: 'https//www.google.com',
+              text: 'ابدأ التقييم الآن',
+              link: 'https://www.google.com', // أصلح الرابط هنا لأنه كان ناقص بروتوكول http/https
             },
           },
         },
@@ -138,50 +137,49 @@ export const createDefaultHeader = async () => {
         cr: {
           list: [
             {
-              title: 'Platform',
-              subheader: 'Platform',
+              title: 'پلاتفۆرم',
+              subheader: 'پلاتفۆرم',
               path: '/platform',
             },
-
             {
-              title: 'Industries',
+              title: 'پیشەکان',
               path: '/industries',
               children: [
                 {
                   items: [
                     {
-                      title: 'Fulfillment Automation',
+                      title: 'خۆکاریکردنی پەیڕەوکردن',
                       path: '/industries/Fulfillment',
                       children: [
                         {
                           items: [
-                            { title: 'Fulfillment 33Automation2', path: '#' },
-                            { title: 'Dispatch 33Planning2', path: '#' },
-                            { title: 'Delivery 33Orchestration2', path: '#' },
-                            { title: 'Track and 33Trace2', path: '#' },
-                            { title: 'Analytics 33and Insights2', path: '#' },
+                            { title: 'خۆکاریکردنی پەیڕەوکردن 2', path: '#' },
+                            { title: 'پلاندانانی نێردن 2', path: '#' },
+                            { title: 'ڕێکخستنی گەیاندن 2', path: '#' },
+                            { title: 'شانە و گەڕان 2', path: '#' },
+                            { title: 'آنالیز و بینه‌ڕەوانییەکان 2', path: '#' },
                           ],
                         },
                       ],
                     },
-                    { title: 'Dispatch Planning', path: '#' },
-                    { title: 'Delivery Orchestration', path: '#' },
-                    { title: 'Track and Trace', path: '#' },
-                    { title: 'Analytics and Insights', path: '#' },
+                    { title: 'پلاندانانی نێردن', path: '#' },
+                    { title: 'ڕێکخستنی گەیاندن', path: '#' },
+                    { title: 'شانە و گەڕان', path: '#' },
+                    { title: 'آنالیز و بینه‌ڕەوانییەکان', path: '#' },
                   ],
                 },
               ],
             },
-            { title: 'Resources', path: '/Resources' },
-            { title: 'Company', path: '/Company' },
-            { title: 'Customers', path: '/Customers' },
-            { title: 'Guides', path: '/Guides' },
+            { title: 'سەرچاوەکان', path: '/Resources' },
+            { title: 'کۆمپانیا', path: '/Company' },
+            { title: 'کڕیارەکان', path: '/Customers' },
+            { title: 'ڕێنماییەکان', path: '/Guides' },
           ],
           headLine: {
-            text: 'Transform yor last mile with personalized, actionable insights in just seven minutes!',
+            text: 'دوایین بەشەکەت گۆڕە بە ئاگادارییەکی کەسی و کاریگەری تەنها لە ٧ خولەکدا!',
             link: {
-              text: 'Take our Assessment',
-              link: 'https//www.google.com',
+              text: 'تاقیکردنەوەکەمان بکە',
+              link: 'https://www.google.com',
             },
           },
         },

@@ -28,11 +28,11 @@ export const createDefaultAdvantage = async () => {
       id: 0,
       lang: {
         ar: {
-          titleOne: 'The',
-          span: 'Locus',
-          titleTow: 'Advantage',
-          buttonOne: 'With Locus',
-          buttonTow: 'Without Locus',
+          titleOne: 'الـ',
+          span: 'لوكوس',
+          titleTow: 'الميزة',
+          buttonOne: 'مع لوكوس',
+          buttonTow: 'بدون لوكوس',
         },
         en: {
           titleOne: 'The',
@@ -42,17 +42,18 @@ export const createDefaultAdvantage = async () => {
           buttonTow: 'Without Locus',
         },
         cr: {
-          titleOne: 'The',
-          span: 'Locus',
-          titleTow: 'Advantage',
-          buttonOne: 'With Locus',
-          buttonTow: 'Without Locus',
+          titleOne: 'ئه‌وه‌ی',
+          span: 'لوكۆس',
+          titleTow: 'فێرەک',
+          buttonOne: 'بە لەوكۆس',
+          buttonTow: 'بێ لەوكۆس',
         },
       },
       buttonTowI:
         'http://localhost:8080/uploads/advantage/without-advantage.svg',
       buttonOneI: 'http://localhost:8080/uploads/advantage/with-advantage.svg',
     });
+
     defaultAdvantage.save();
     console.log('\x1b[33m$$-\x1b[0m', `Advantage is created successfully.`);
   } else {

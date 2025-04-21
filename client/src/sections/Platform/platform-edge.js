@@ -36,7 +36,7 @@ export default function PlatFormEdge({data}) {
       setEdgeData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setEdgeData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setEdgeData({...data, ...data?.lang?.cr})
     }
   }, [data])

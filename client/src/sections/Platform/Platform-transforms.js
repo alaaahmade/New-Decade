@@ -24,7 +24,7 @@ export const PlatformTransForms = ({data}) => {
       setTransformData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setTransformData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setTransformData({...data, ...data?.lang?.cr})
     }
 

@@ -29,7 +29,7 @@ export default function HomeAvenues({data}) {
       setAvenuesData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setAvenuesData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setAvenuesData({...data, ...data?.lang?.cr})
     }
   }, [data])

@@ -30,7 +30,7 @@ export default function PlatformConvert({data}) {
       setConvertData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setConvertData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setConvertData({...data, ...data?.lang?.cr})
     }
 

@@ -27,9 +27,9 @@ export const createDefaultPlatformConvert = async () => {
       id: 0,
       lang: {
         ar: {
-          title: 'Convert Your Logistics Operations to a Revenue Generator',
+          title: 'حوّل عملياتك اللوجستية إلى مُولّد للإيرادات',
           button: {
-            text: 'Schedule a Demo',
+            text: 'جدولة عرض توضيحي',
             link: 'www.google.com',
           },
         },
@@ -41,9 +41,9 @@ export const createDefaultPlatformConvert = async () => {
           },
         },
         cr: {
-          title: 'Convert Your Logistics Operations to a Revenue Generator',
+          title: 'گۆڕینی فەرمی فەرمی تایبەتمەندەکان بۆ فەرمی دراوە',
           button: {
-            text: 'Schedule a Demo',
+            text: 'کۆنترۆڵی پێشکەش بکە',
             link: 'www.google.com',
           },
         },

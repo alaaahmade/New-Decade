@@ -26,83 +26,81 @@ export const createDefaultAboutPlatform = async () => {
       id: 0,
       lang: {
         ar: {
-          titleOne: 'Built For Enterprise',
-          desc: `Locus Dispatch Management Platform is an integrated ecosystem of interconnected modules for order, 
-          carrier, contract, dispatch, and driver management. As a comprehensive, Al-driven logistics management 
-          software, it streamlines complex supply chain operations across hundreds of constraints like route 
-          restrictions, hours of service, cost, choice and availability of carriers, and more. The platform is highly intuitive 
-          and meets key enterprise-level needs for scale, security, and compliance.`,
+          titleOne: 'مصمم للمؤسسات',
+          desc: `منصة إدارة التوصيل Locus هي نظام بيئي متكامل من الوحدات المترابطة لإدارة الطلبات،
+          وشركات النقل، والعقود، والتوصيل، والسائقين. كبرنامج شامل لإدارة اللوجستيات مدفوع بالذكاء الاصطناعي،
+          يعمل على تبسيط العمليات المعقدة في سلسلة التوريد مع مئات القيود مثل قيود الطرق،
+          وساعات العمل، والتكلفة، والاختيار وتوفر شركات النقل، وغيرها. المنصة بديهية للغاية
+          وتلبي الاحتياجات الرئيسية للمؤسسات من حيث التوسع، والأمان، والامتثال.`,
           rateList: [
             {
               id: 0,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title:
-                'Locus is a very powerful yet simple and intuitive platform',
+              title: 'Locus منصة قوية جداً وسهلة الاستخدام وبديهية',
             },
             {
               id: 1,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title:
-                'Locus association with Popular Food delivery app - A success story!',
+              title: 'تعاون Locus مع تطبيق توصيل الطعام الشهير - قصة نجاح!',
             },
             {
               id: 2,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title: 'Excellent Product for Vehicle Management and Tracking',
+              title: 'منتج ممتاز لإدارة وتتبع المركبات',
             },
             {
               id: 3,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title: 'Robust Product and Smart Implementation team',
+              title: 'منتج قوي وفريق تنفيذ ذكي',
             },
           ],
-          titleTow: 'Locus Dispatch Management Platform Built for EnterPrise',
+          titleTow: 'منصة إدارة التوصيل Locus مصممة للمؤسسات',
           propList: [
             {
               id: 0,
-              title: 'Fulfillment Automation',
+              title: 'أتمتة التنفيذ',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Order Management',
+                  name: 'إدارة الطلبات',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Delivery Linked Checkout',
+                  name: 'الدفع المرتبط بالتوصيل',
                 },
               ],
             },
             {
               id: 1,
-              title: 'Dispatch Planning',
+              title: 'تخطيط التوصيل',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Hub Operations',
+                  name: 'عمليات المحور',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Capacity Management ',
+                  name: 'إدارة السعة',
                 },
                 {
                   id: 2,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Route Planning',
+                  name: 'تخطيط المسارات',
                 },
               ],
             },
             {
               id: 2,
-              title: 'Delivery Orchestration',
+              title: 'تنظيم التوصيل',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Transporter Management',
+                  name: 'إدارة الناقلين',
                 },
                 {
                   id: 1,
@@ -113,38 +111,38 @@ export const createDefaultAboutPlatform = async () => {
             },
             {
               id: 3,
-              title: 'Track & Trace',
+              title: 'التتبع والمراقبة',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Driver Companion App',
+                  name: 'تطبيق السائق',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Control Tower ',
+                  name: 'برج التحكم',
                 },
                 {
                   id: 2,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Tracking Page',
+                  name: 'صفحة التتبع',
                 },
               ],
             },
             {
               id: 4,
-              title: 'Analytics & Insights',
+              title: 'التحليلات والرؤى',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Business Insights',
+                  name: 'رؤى الأعمال',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Location Analytics',
+                  name: 'تحليلات المواقع',
                 },
               ],
             },
@@ -276,83 +274,85 @@ export const createDefaultAboutPlatform = async () => {
           ],
         },
         cr: {
-          titleOne: 'Built For Enterprise',
-          desc: `Locus Dispatch Management Platform is an integrated ecosystem of interconnected modules for order, 
-          carrier, contract, dispatch, and driver management. As a comprehensive, Al-driven logistics management 
-          software, it streamlines complex supply chain operations across hundreds of constraints like route 
-          restrictions, hours of service, cost, choice and availability of carriers, and more. The platform is highly intuitive 
-          and meets key enterprise-level needs for scale, security, and compliance.`,
+          titleOne: 'دیزاین کراوە بۆ دامەزراوە گەورەکان',
+          desc: `سەرچاوەی بەڕێوەبردنی گەیاندن Locus سیستەمێکی تەواوە بۆ بەڕێوەبردنی داواکاریەکان،
+          کۆمپانیای گەیاندن، پەیوەندیدانی مەعاهەدانەکان، گەیاندن و شۆفێرەکان. 
+          وەک ڕازیکاریەکی تەواوی بەڕێوەبردنی لۆجیستیکی بە هێزێکی زانست و زیرەکییەوە، 
+          کارەکانی بە سەختی زنجیرەی پەخشی بە ئاسانترین شێوە ئەنجام دەدات بە صدها مەرجی جۆراوجۆر 
+          وەک ڕێگای گەیاندن، کاتەکار، نرخی گەیاندن، هەلبژاردن و بەردەستبوونی گەیاندەرەکان، و هتد.
+          ئەم سەرچاوەیە زۆر بەکارهێنەرپەسەندە و پێویستی دامەزراوە گەورەکان پێدادات بۆ ڕەزامەندی لە 
+          گەورەبوون، پاراستن، و پابەندبوون.`,
           rateList: [
             {
               id: 0,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title:
-                'Locus is a very powerful yet simple and intuitive platform',
+              title: 'Locus سەرچاوەیەکی زۆر بەهێز و بەکارهێنانی ئاسانە',
             },
             {
               id: 1,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
               title:
-                'Locus association with Popular Food delivery app - A success story!',
+                'هاوبەشکاری Locus لەگەڵ بەرنامەی گەیاندنی خواردن - چیرۆکی سەرکەوتن!',
             },
             {
               id: 2,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title: 'Excellent Product for Vehicle Management and Tracking',
+              title: 'بەرنامەیەکی باش بۆ بەڕێوەبردن و چاودێری ئۆتۆمبێلەکان',
             },
             {
               id: 3,
               stars: 'http://localhost:8080/uploads/aboutPlatform/stars.png',
-              title: 'Robust Product and Smart Implementation team',
+              title: 'بەرنامەیەکی بەهێز و تیمی جێبەجێکردنی زیرەک',
             },
           ],
-          titleTow: 'Locus Dispatch Management Platform Built for EnterPrise',
+          titleTow:
+            'سەرچاوەی بەڕێوەبردنی گەیاندن Locus دیزاین کراوە بۆ دامەزراوە گەورەکان',
           propList: [
             {
               id: 0,
-              title: 'Fulfillment Automation',
+              title: 'خۆکارکردنی جێبەجێکردن',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Order Management',
+                  name: 'بەڕێوەبردنی داواکاریەکان',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Delivery Linked Checkout',
+                  name: 'پارەدان پەیوەندیدار بە گەیاندن',
                 },
               ],
             },
             {
               id: 1,
-              title: 'Dispatch Planning',
+              title: 'پلانی گەیاندن',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Hub Operations',
+                  name: 'کارکردنی سەنتەرەکان',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Capacity Management ',
+                  name: 'بەڕێوەبردنی گنجایش',
                 },
                 {
                   id: 2,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Route Planning',
+                  name: 'پلانی ڕێگاکان',
                 },
               ],
             },
             {
               id: 2,
-              title: 'Delivery Orchestration',
+              title: 'ڕێکخستنی گەیاندن',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Transporter Management',
+                  name: 'بەڕێوەبردنی گەیاندەرەکان',
                 },
                 {
                   id: 1,
@@ -363,38 +363,38 @@ export const createDefaultAboutPlatform = async () => {
             },
             {
               id: 3,
-              title: 'Track & Trace',
+              title: 'چاودێری و پشکنین',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Driver Companion App',
+                  name: 'بەرنامەی شۆفێر',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Control Tower ',
+                  name: 'بەرزی کۆنترۆڵ',
                 },
                 {
                   id: 2,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Tracking Page',
+                  name: 'پەڕەی چاودێری',
                 },
               ],
             },
             {
               id: 4,
-              title: 'Analytics & Insights',
+              title: 'زانست و ئاماژەکان',
               list: [
                 {
                   id: 0,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Business Insights',
+                  name: 'ئاماژەکانی کاروبار',
                 },
                 {
                   id: 1,
                   img: 'http://localhost:8080/uploads/avenues/icon-last-mile-excellence.svg',
-                  name: 'Location Analytics',
+                  name: 'زانستی شوێنەکان',
                 },
               ],
             },

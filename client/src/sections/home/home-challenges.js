@@ -24,7 +24,7 @@ export const HomeChallenges = ({data}) => {
       setChallengesData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setChallengesData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setChallengesData({...data, ...data?.lang?.cr})
     }
 

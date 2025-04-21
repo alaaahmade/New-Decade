@@ -43,7 +43,7 @@ export default function PlatformHero({data}) {
       setHeroData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setHeroData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setHeroData({...data, ...data?.lang?.cr})
     }
   }, [data])

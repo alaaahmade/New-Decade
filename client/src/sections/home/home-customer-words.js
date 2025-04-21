@@ -31,7 +31,7 @@ export default function CustomerWords({data}) {
       setWordsData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setWordsData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setWordsData({...data, ...data?.lang?.cr})
     }
     setRateOne(data.rateOne)

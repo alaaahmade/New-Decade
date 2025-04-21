@@ -19,7 +19,7 @@ const HomeLatestInsights = ({data}) => {
       setInsightsData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setInsightsData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setInsightsData({...data, ...data?.lang?.cr})
     }
 

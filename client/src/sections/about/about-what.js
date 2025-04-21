@@ -38,7 +38,7 @@ export default function AboutWhat({data}) {
       setAboutData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setAboutData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setAboutData({...data, ...data?.lang?.cr})
     }
   }, [data])

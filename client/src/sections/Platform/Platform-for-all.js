@@ -36,7 +36,7 @@ export default function PlatformForAll({data}) {
       setForAllData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
       setForAllData({...data, ...data?.lang?.ar})
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setForAllData({...data, ...data?.lang?.cr})
     }
   }, [data])

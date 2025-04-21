@@ -48,7 +48,7 @@ export default function HomeTrusted({data}) {
         {...data?.lang?.ar?.listThree, list: data.listThree},
         {...data?.lang?.ar?.listFour, list: data.listFour},
       ]))
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setTrustedData({...data, ...data?.lang?.cr})
       setList(prev => ([
         ...prev,

@@ -50,7 +50,7 @@ export default function SettingsButton({ sx }) {
             height: 40,
           }}
         >
-          <Iconify icon="solar: -bold-duotone" width={24} />
+          <Iconify icon="uil:setting" width={24} />
         </IconButton>
       </Box>
     </Badge>

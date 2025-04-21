@@ -50,7 +50,7 @@ export default function AboutPlatform({data}) {
       setRateList(data?.lang?.ar?.rateList)
       setList(data?.lang?.ar?.propList)
 
-    }else if (lang === 'cr') {
+    }else if (lang === 'Kurdi') {
       setAboutData({...data, ...data?.lang?.cr})
       setRateList(data?.lang?.cr?.rateList)
       setList(data?.lang?.cr?.propList)

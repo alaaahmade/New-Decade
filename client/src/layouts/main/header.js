@@ -21,6 +21,8 @@ import { useResponsive } from 'src/hooks/use-responsive';
 import { paths } from 'src/routes/paths';
 // components
 import Logo from 'src/components/logo';
+import { Icon } from "@iconify/react";
+
 //
 import { HEADER } from '../config-layout';
 import { navConfig } from './config-navigation';
@@ -29,7 +31,7 @@ import NavDesktop from './nav/desktop';
 //
 import { SettingsButton, HeaderShadow, LoginButton } from '../_common';
 import useLocales from '../../locales/use-locales'
-import { Typography } from '@mui/material';
+import { FormControl, InputLabel, MenuItem, Select, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 
 // ----------------------------------------------------------------------
@@ -53,7 +55,7 @@ export default function Header({headerData}) {
         setData({...headerData, ...headerData?.lang?.en})
       }else if (lang === 'ar') {
         setData({...headerData, ...headerData?.lang?.ar})
-      }else if (lang === 'cr') {
+      }else if (lang === 'Kurdi') {
         setData({...headerData, ...headerData?.lang?.cr})
       }
     }, [headerData])
@@ -89,7 +91,6 @@ export default function Header({headerData}) {
       <>
       <Typography sx={{
         fontSize: mdUp ? 14 : 10,
-        // color: theme.palette.primary.contrastText
       }}>
         {data.headLine.text}
       </Typography>
@@ -107,10 +108,9 @@ export default function Header({headerData}) {
             xs: HEADER.H_MOBILE,
             md: HEADER.H_DESKTOP,
           },
-          backgroundColor: offsetTop ? theme.palette.background.default : theme.palette.primary.main,
+          backgroundColor: (offsetTop && !light) ? theme.palette.background.default : theme.palette.primary.main || theme.palette.primary.main,
           width: '100%',
           position: offsetTop ? 'fixed' : 'relative',
-          // top: offsetTop ? 0 : 4
         }}
       >
         <Container sx={{ height: 1, display: 'flex', alignItems: 'center' }}>
@@ -164,14 +164,15 @@ export default function Header({headerData}) {
                 m: '0 1em'
               }}
             >
-            <Button
+            {/* <Button
               sx={{
                 color: offsetTop ? theme.palette.primary.contrastText  : '#fff'
               }}
               onClick={() => {
                 setDLang(!dLang)
               }}
-            >{lang}
+            >{lang} 
+            {!dLang ? <Icon color='inherit' icon="lets-icons:arrow-drop-down" width="24" height="24" /> : <Icon color='inherit' icon="lets-icons:arrow-drop-up" width="24" height="24" />}
             </Button>
             {dLang && (
             <Box
@@ -187,7 +188,7 @@ export default function Header({headerData}) {
               right: '-2em',
               backgroundColor: '#ccc',
               color: '#000',
-              borderRadius: '2px'
+              borderRadius: '2px',
             }}
           >
           <Button
@@ -215,13 +216,45 @@ export default function Header({headerData}) {
               color: '#fff'
             }}
             onClick={() => {
-              onChangeLang('cr')
+              onChangeLang('Kurdi')
               window.location.reload()
             }}
-          >cr
+          >Kurdi
           </Button>
           </Box>
-            )}
+          
+            )} */}
+
+      <FormControl sx={{ m: 1, minWidth: 80 }}>
+        <InputLabel id="demo-simple-select-autowidth-label">{lang}</InputLabel>
+        <Select
+          labelId="demo-simple-select-autowidth-label"
+          id="demo-simple-select-autowidth"
+          // value={lang}
+          onChange={(e) => {
+            onChangeLang(e.target.value)
+              window.location.reload()
+          }}
+          autoWidth
+          label="Lang"
+          sx={{
+            '& .MuiSelect-root': {
+              outline: 'none', // Remove outline
+            },
+            '& .MuiOutlinedInput-notchedOutline': {
+              border: 'none', // Remove border
+            },
+            '&:focus': {
+              outline: 'none', // Remove outline on focus
+              border: 'none', // Remove border on focus
+            },
+          }}
+        >
+          <MenuItem value={'ar'}>ar</MenuItem>
+          <MenuItem value={'en'}>en</MenuItem>
+          <MenuItem value={'Kurdi'}>Kurdi</MenuItem>
+        </Select>
+      </FormControl>
 
             </Box>
 
