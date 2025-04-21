@@ -76,7 +76,7 @@ export const createDefaultHero = async () => {
           },
         },
       },
-      image: 'http://localhost:8080/uploads/hero/1745236676190-873148780.webp',
+      image: 'http://localhost:8080/uploads/hero/1745239489795-596588674.webp',
     });
 
     defaultHero.save();

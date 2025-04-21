@@ -31,7 +31,7 @@ export const createDefaultHeader = async () => {
   if (!defaults) {
     const defaultHeader = new Header({
       id: 0,
-      logo: 'http://localhost:8080/uploads/header/1745235773978-532815789.png',http://localhost:8080/uploads/header/logo.png'
+      logo: 'http://localhost:8080/uploads/header/1745235773978-532815789.png',
       smallLogo: 'http://localhost:8080/uploads/header/smallLogo.png',
       whatsNumber: '9724149120',
       lang: {

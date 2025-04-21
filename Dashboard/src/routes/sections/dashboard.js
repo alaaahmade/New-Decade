@@ -6,7 +6,6 @@ import { LoadingScreen } from 'src/components/loading-screen';
 
 // ----------------------------------------------------------------------
 
-const PageTwo = lazy(() => import('src/pages/dashboard/CreateProject'));
 const HomePage = lazy(() => import('src/pages/dashboard/Home'));
 const SittingsPage = lazy(() => import('src/pages/dashboard/Account/SettingsDetail'));
 
@@ -41,7 +40,6 @@ export const dashboardRoutes = [
     ),
     children: [
       { element: <HomePage />, index: true },
-      { path: 'two', element: <PageTwo /> },
       // edit home
       { path: 'edit/header/', element: <HeaderEditPage /> },
       {path: 'edit/hero', element: <HomeHeroEditPage/>},

@@ -68,7 +68,7 @@ export const createDefaultPlatformHero = async () => {
           },
         },
       },
-      image: 'http://localhost:8080/uploads/platformHero/hero.svg',
+      image: 'http://localhost:8080/uploads/hero/1745236676190-873148780.webp',
     });
     defaultHero.save();
     console.log('\x1b[33m$$-\x1b[0m', `Platform Hero is created successfully.`);
