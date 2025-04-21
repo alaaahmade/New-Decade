@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 // components
 import { MotionViewport, varFade } from 'src/components/animate';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { localStorageGetItem } from 'src/utils/storage-available';
 import { Button } from '@mui/material';
 import { blue } from '@mui/material/colors';
@@ -111,7 +111,7 @@ export default function HomeTrusted({data}) {
             >
               {list?.length > 0 && list?.map(item => (
                 <Button
-                  key={item.id}
+                  key={`${item.id} ${item.name}`}
                   sx={{
                     borderBottom: trusted === item.name && '2px solid #0098ff',
                     color: trusted === item.name && '#0098ff',
@@ -147,7 +147,9 @@ export default function HomeTrusted({data}) {
           {list?.length > 0 &&  list?.map((item, i) => (
             trusted === item.name && (
               mdUp ? (
-                <>
+                <Fragment
+                key={`${item.id} ${item.name}`}
+                >
                 {item?.list[0] && <ItemBox img={item.list[0]?.img}/>}
   
                 {item?.list[1] && item?.list[2] && (
@@ -176,9 +178,11 @@ export default function HomeTrusted({data}) {
                 )}
   
                 {item?.list[9] && <ItemBox img={item.list[9]?.img}/>}
-                </>
+                </Fragment>
               ) : (
-                <>
+                <Fragment
+                  key={`${item.id} ${item.name}`}
+                >
                 {item?.list[0] && item?.list[1] && item?.list[2] && (
                   <RowBox>
                     <ItemBox sx={{width: '4em', height: '4em'}} img={item.list[0]?.img}/>
@@ -202,7 +206,7 @@ export default function HomeTrusted({data}) {
                     <ItemBox sx={{width: '4em', height: '4em'}} img={item.list[9]?.img}/>
                   </RowBox>
                 )}  
-                </>
+                </Fragment>
               )
             )
           ))}
@@ -213,5 +217,5 @@ export default function HomeTrusted({data}) {
 }
 
 HomeTrusted.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.any.isRequired
 }

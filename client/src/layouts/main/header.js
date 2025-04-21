@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 // @mui
 
@@ -20,7 +21,6 @@ import { useResponsive } from 'src/hooks/use-responsive';
 import { paths } from 'src/routes/paths';
 // components
 import Logo from 'src/components/logo';
-import Label from 'src/components/label';
 //
 import { HEADER } from '../config-layout';
 import { navConfig } from './config-navigation';
@@ -78,7 +78,7 @@ export default function Header({headerData}) {
         height: 45,
         width: '100%',
         fontSize: mdUp ? 14 : 10,
-        color: light ? theme.palette.common.main : theme.palette.primary.light,
+        color: light ? theme.palette.common.main : theme.palette.primary.darkMain,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -129,9 +129,6 @@ export default function Header({headerData}) {
                 underline="none"
                 sx={{ ml: 1 }}
               >
-                {/* <Label color="info" sx={{ textTransform: 'unset', height: 22, px: 0.5 }}>
-                  v0.0.y
-                </Label> */}
               </Link>
             }
           >
@@ -169,8 +166,6 @@ export default function Header({headerData}) {
             >
             <Button
               sx={{
-                // mr: { xs: 1, md: 0 },
-                // ml: { md: 2 },
                 color: offsetTop ? theme.palette.primary.contrastText  : '#fff'
               }}
               onClick={() => {

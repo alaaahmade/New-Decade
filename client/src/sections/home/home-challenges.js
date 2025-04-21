@@ -111,29 +111,32 @@ export const HomeChallenges = ({data}) => {
         }}
         >
           {list?.length > 0 && list?.map(item => (
-            <li key={item.id}>{item.text}</li>
+            <li key={`${item.id}-${item.text}`}>{item.text}</li>
           ))}
         </ul>
       </m.div>
 
-        <Typography sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'flex-start',
-            gap: 1.5,
-            fontWeight: '500',
-            width: '90%',
-            fontSize: 16,
-            color: light && theme.palette.common.main,
-            lineHeight: 1.5,
-            mt: 2.5,
-            textAlign: !mdUp ? 'center' : 'unset'
-
-        }} variant="body2" align='left' >
-          {challengesData?.descTow}
-          <m.div variants={varFade().in}>
-      </m.div>
-        </Typography>
+      <m.div variants={varFade().in}>
+  <Typography
+    sx={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'flex-start',
+      gap: 1.5,
+      fontWeight: '500',
+      width: '90%',
+      fontSize: 16,
+      color: light && theme.palette.common.main,
+      lineHeight: 1.5,
+      mt: 2.5,
+      textAlign: !mdUp ? 'center' : 'unset'
+    }}
+    variant="body2"
+    align="left"
+  >
+    {challengesData?.descTow}
+  </Typography>
+</m.div>
       <Box  sx={{
         display: 'flex',
         alignItems: 'center', 
@@ -190,5 +193,5 @@ export const HomeChallenges = ({data}) => {
 }
 
 HomeChallenges.propTypes = {
-  HomeAvenues: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired
 }

@@ -168,5 +168,5 @@ export default function HomeLogisticsSolution({data}) {
 }
 
 HomeLogisticsSolution.propTypes = {
-  HomeAvenues: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired
 }

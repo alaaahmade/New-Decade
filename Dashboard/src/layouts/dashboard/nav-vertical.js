@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useEffect } from 'react';
+import { Fragment, useEffect } from 'react';
 // @mui
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
@@ -17,6 +17,8 @@ import { NavSectionVertical } from 'src/components/nav-section';
 import { NAV } from '../config-layout';
 import { useNavData } from './config-navigation';
 import { NavToggleButton, NavUpgrade } from '../_common';
+import { useSettingsContext } from 'src/components/settings';
+import { Typography } from '@mui/material';
 
 // ----------------------------------------------------------------------
 
@@ -26,6 +28,10 @@ export default function NavVertical({ openNav, onCloseNav }) {
   const pathname = usePathname();
 
   const lgUp = useResponsive('up', 'lg');
+
+
+    const settings = useSettingsContext();
+
 
   const navData = useNavData();
 
@@ -48,8 +54,19 @@ export default function NavVertical({ openNav, onCloseNav }) {
         },
       }}
     >
-      <Logo openNav={openNav} sx={{ mt: 3, ml: 4, mb: 1 }} />
-
+      <Stack
+      sx={{
+        display: 'flex',
+        alignItems: 'flex-end',
+        justifyContent: 'flex-start',
+        flexDirection: 'row',
+      }}
+      >
+      <Logo openNav={openNav} sx={{ mt: 3, ml: 4, mb: 1, width: settings.themeLayout === 'mini' ? 40 : 40 }} />
+      {settings.themeLayout === 'vertical' && <Typography variant="h6" sx={{ mb: 2, mx: 2.5, color: '#fff' }}>
+      Dashboard
+      </Typography>}
+      </Stack>
       <NavSectionVertical
         data={navData}
         config={{

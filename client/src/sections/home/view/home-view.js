@@ -58,17 +58,23 @@ export default function HomeView() {
   const [data, setData] = useState({})
   const [whatsNumber, setWhatsNumber] = useState('')
 
-  const direction =  JSON.parse(localStorage.getItem('settings')).themeDirection //ltr  //rtl
+  // const direction =  JSON.parse(localStorage.getItem('settings')).themeDirection //ltr  //rtl
 
   const theme = useTheme()
 
 
-  useEffect(async() => {
-    const newData = await fetcher([endpoints.data.home])
-    const newNumber= await fetcher([endpoints.layout]);
-    setWhatsNumber(newNumber?.header?.whatsNumber)
-  setData(newData)
-  }, [])
+  useEffect(() => {
+    const fetchData = async () => {
+      const newData = await fetcher([endpoints.data.home]);
+      const newNumber = await fetcher([endpoints.layout]);
+  
+      setWhatsNumber(newNumber?.header?.whatsNumber);
+      setData(newData);
+    };
+  
+    fetchData();
+  }, []);
+  
 
   const mdUp = useResponsive('up', 'md');
   
@@ -141,7 +147,8 @@ export default function HomeView() {
             backgroundColor: theme.palette.common.main || '#2a0a39',
             position:'fixed',
             bottom: 10,
-            left: direction === 'ltl' ?(mdUp ? '7%' : '15%') : (mdUp ? '93%' : '85%'),
+            left: 'rtl',
+            // left: direction === 'ltl' ?(mdUp ? '7%' : '15%') : (mdUp ? '93%' : '85%'),
             zIndex: 10000000000000,
             borderRadius: '50%',
             backgroundPosition: 'center',

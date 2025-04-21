@@ -15,7 +15,7 @@ export const ItemBox = ({img, sx}) => {
         width: '12%',
         height: '9em',
         backgroundColor: light ? '#fff' : '#4e4e4e',
-        boxShadow: light ? '1px 1px 20px #ccc, -1px -1px 20px #ccc' : '1px 1px 20px #000, -1px -1px 20px #000 ',
+        boxShadow: light ? '1px 1px 20px #ccc, -1px -1px 20px #ccc' : '1px 1px 5px #ccc, -1px -1px 5px #ccc ',
         backgroundSize: '60%',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

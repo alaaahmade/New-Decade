@@ -36,8 +36,8 @@ const StyledRoot = styled('div')(({ theme }) => ({
     imgUrl: '/assets/background/overlay_3.jpg',
   }),
   width: '100%',
-  height: '100vh',
-  position: 'relative',
+  height: '100dvh', 
+    position: 'relative',
   [theme.breakpoints.up('md')]: {
     top: 45,
     left: 0,
@@ -55,9 +55,6 @@ const StyledWrapper = styled('div')(({ theme }) => ({
 }));
 
 const StyledTextGradient = styled(m.h1)(({ theme }) => ({
-  ...textGradient(
-    `300deg, ${theme.palette.primary.main} 0%, ${theme.palette.warning.main} 25%, ${theme.palette.primary.main} 50%, ${theme.palette.warning.main} 75%, ${theme.palette.primary.main} 100%`
-  ),
   padding: 0,
   marginTop: 4,
   lineHeight: 1.5,
@@ -70,6 +67,7 @@ const StyledTextGradient = styled(m.h1)(({ theme }) => ({
   [theme.breakpoints.up('md')]: {
     fontSize: `${64 / 16}rem`,
   },
+  
 }));
 
 const StyledEllipseTop = styled('div')(({ theme }) => ({
@@ -128,11 +126,15 @@ export default function HomeHero({data}) {
   const [heroData, setHeroData] = useState({})
   const lang = localStorageGetItem('i18nextLng')
   const [image, setImage] = useState('/assets/images/home/hero.svg')
-  useEffect(() => {
-    setImage(heroData?.image)
-  }, [heroData?.image, heroData])
+
+useEffect(() => {
+  if (heroData?.image) {
+    setImage(heroData.image);
+  }
+}, [heroData]);
 
   useEffect(() => {
+    if(lang){
     if (lang === 'en') {
       setHeroData({...data, ...data?.lang?.en})
     }else if (lang === 'ar') {
@@ -140,6 +142,7 @@ export default function HomeHero({data}) {
     }else if (lang === 'cr') {
       setHeroData({...data, ...data?.lang?.cr})
     }
+  }
   }, [data])
   const mdUp = useResponsive('up', 'md');
   const theme = useTheme();
@@ -151,6 +154,7 @@ export default function HomeHero({data}) {
 
   const [percent, setPercent] = useState(0);
 
+  const fadeInVariant = varFade().in;
 
   const getScroll = useCallback(() => {
     let heroHeight = 0;
@@ -199,10 +203,9 @@ export default function HomeHero({data}) {
         <Typography
           variant="h2"
           sx={{
-            // textAlign: 'left',
           fontSize: '3.4em !important',
           width: '100%',
-          color: light ? theme.palette.common.main : theme.palette.primary.light
+          color: light ? theme.palette.common.main : theme.palette.primary.darkMain
           }}
         >
           {heroData.titleOne} 
@@ -214,14 +217,14 @@ export default function HomeHero({data}) {
             mt: -1.5 ,
             mb: 1,
             width: '100%',
-            color: light ? theme.palette.common.main : theme.palette.primary.light
+            color: light ? theme.palette.common.main : theme.palette.primary.darkMain
           }}
         >
           {heroData.titleTow} 
         </Typography>
       </Box>
 
-      <m.div variants={varFade().in}>
+      <m.div variants={fadeInVariant}>
         <Typography sx={{
           fontWeight: '500',
           width: '100%',
@@ -233,7 +236,7 @@ export default function HomeHero({data}) {
         </Typography>
       </m.div>
 
-        <Typography sx={{
+        <Box sx={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'flex-start',
@@ -246,7 +249,7 @@ export default function HomeHero({data}) {
             mt: 2.5
         }} variant="body2" align='left' >
           Featured in:
-          <m.div variants={varFade().in}>
+          <m.div variants={fadeInVariant}>
         <StyledTextGradient
           animate={{ backgroundPosition: '200% center' }}
           transition={{
@@ -258,12 +261,13 @@ export default function HomeHero({data}) {
           sx={{
             mt: '0 !important',
             mb: '0 !important',
+            color: light ? theme.palette.common.main : theme.palette.primary.darkMain,
           }}
         >
           {heroData.featured}
         </StyledTextGradient>
       </m.div>
-        </Typography>
+        </Box>
       <Box  sx={{
         display: 'flex',
         alignItems: 'center', 
@@ -380,5 +384,5 @@ export default function HomeHero({data}) {
   );
 }
 HomeHero.propTypes = {
-  hero: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired
 }

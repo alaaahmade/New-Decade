@@ -55,7 +55,6 @@ export default function DateDialog({
           }}
           aria-labelledby="demo-radio-buttons-group-label"
           name="radio-buttons-group"
-          fullWidth
           value={value}
           sx={{
             width: '100%',

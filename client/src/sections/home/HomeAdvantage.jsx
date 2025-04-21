@@ -129,5 +129,5 @@ export const HomeAdvantage = ({data}) => {
 }
 
 HomeAdvantage.propTypes = {
-  HomeAvenues: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired
 }

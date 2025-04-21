@@ -164,5 +164,5 @@ export default function AboutWhat({data}) {
 
 
 AboutWhat.propTypes = {
-  hero: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired
 }

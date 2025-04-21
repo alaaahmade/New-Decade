@@ -21,6 +21,6 @@ export const ColumnBux = ({children}) => {
 }
 
 ColumnBux.propTypes = {
-  children: propTypes.element.isRequired
+  children: propTypes.node.isRequired
 }
 

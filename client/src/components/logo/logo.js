@@ -47,7 +47,6 @@ const getLogo = async() => {
         height: '100%',
         width: '100%',
         objectFit: 'cover',
-        // position: 'absolute',
         boxShadow: `-80px 80px 80px ${
           theme.palette.mode === 'light'
             ? alpha(theme.palette.grey[500], 0.48)

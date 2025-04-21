@@ -257,5 +257,5 @@ export default function CustomerWords({data}) {
 }
 
 CustomerWords.propTypes = {
-  HomeAvenues: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired
 }

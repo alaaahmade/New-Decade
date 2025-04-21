@@ -52,6 +52,6 @@ export const AvenuesCard = ({text, textColor, img, other, setAvenues, avenues}) 
 }
 
 AvenuesCard.propTypes = {
-  hero: PropTypes.func.isRequired,
+  hero: PropTypes.func,
   avenues: PropTypes.string.isRequired
 }

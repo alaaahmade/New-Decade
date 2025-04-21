@@ -97,7 +97,10 @@ export default function HomeModular({data}) {
         justifyContent: 'space-between'
       }} variants={varFade().inUp}>
         {list?.length > 0 && list?.map((item, i) => (
-          <Button sx={{
+          <Button 
+            key={item.name}
+          sx={{
+            
             width: '15%',
             borderRadius: 0,
             backgroundColor: text === item.name ? '#959595' : light ? '#ccc' : '#4e4e4e',

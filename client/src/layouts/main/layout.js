@@ -16,7 +16,7 @@ import { Outlet } from 'react-router';
 
 
 export default function MainLayout() {
-  const [data, setData] = useState({})
+  const [data, setData] = useState({})  
 
   useEffect(() => {
 

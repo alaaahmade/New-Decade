@@ -21,6 +21,6 @@ export const RowBox = ({children}) => {
 }
 
 RowBox.propTypes = {
-  children: propTypes.element.isRequired
+  children: propTypes.node.isRequired
 }
 
